@@ -1,0 +1,67 @@
+a.nav-link:hover {
+    background-color: #343a40;
+    border-radius: 5px;
+  }
+
+  /* Login.css */
+.back-image {
+  background: url('./Images/login.avif') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+}
+
+.back-image::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
+}
+
+.card-container {
+  z-index: 2;
+  position: relative;
+}
+
+.login-card {
+  background: #fff;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.login-title {
+  font-weight: 600;
+  color: #007bff;
+  text-align: center;
+}
+
+.btn-custom {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+
+/* footer css */
+.footer-link {
+  color: #f8f9fa;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.footer-link:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+.social-icon {
+  color: #f8f9fa;
+  font-size: 1.25rem;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #0d6efd;
+}
