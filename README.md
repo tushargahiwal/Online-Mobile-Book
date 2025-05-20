@@ -3,7 +3,7 @@ Project Setup
   - Then, start the project using npm start for the frontend.
   - For the backend, use nodemon server.js or node server.js.
   - For admin registration, you need to register through Postman or Swagger.
-        Admin Credentials:
+       - Admin Credentials:
         {
           "firstname": "Tushar",
           "lastname": "Gahiwal",
